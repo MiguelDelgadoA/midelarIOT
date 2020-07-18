@@ -2,7 +2,7 @@
 
 
 //momento de conectarnos a db
-$conn = mysqli_connect("localhost","admin_midelar","121212","admin_cursoIot");
+$conn = mysqli_connect("localhost","admin_midelar","paralelo","admin_cursoIot");
 
 if ($conn==false){
   echo "Hubo un problema al conectarse a María DB";
