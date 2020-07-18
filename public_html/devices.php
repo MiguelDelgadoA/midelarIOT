@@ -12,7 +12,7 @@ $serie="";
 $user_id = $_SESSION['user_id'];
 
 //momento de conectarnos a db
-$conn = mysqli_connect("localhost","admin_midelar","paralelo","admin_cursoIot");
+$conn = mysqli_connect("localhost","admin_cursoiot","121212","admin_cursoiot");
 
 if ($conn==false){
   echo "Hubo un problema al conectarse a María DB";
