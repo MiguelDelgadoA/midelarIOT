@@ -526,7 +526,7 @@ const options = {
 var connected = false;
 
 // WebSocket connect url
-const WebSocket_URL = 'wss://cursoiot.ga:8094/mqtt'
+const WebSocket_URL = 'wss://midelar.com:8094/mqtt'
 
 
 const client = mqtt.connect(WebSocket_URL, options)
