@@ -6,7 +6,7 @@ if(!$logged){
   echo "Ingreso no autorizado";
   die();
 }
-
+/*
 $devices = $_SESSION['devices'];
 
 //momento de conectarnos a db
@@ -31,7 +31,7 @@ $traffics = $result->fetch_all(MYSQLI_ASSOC);
 
 //print_r($traffics);
 //die();
-
+*/
 ?>
 
 
