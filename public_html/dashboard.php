@@ -6,7 +6,7 @@ if(!$logged){
   echo "Ingreso no autorizado";
   die();
 }
-/*
+
 $devices = $_SESSION['devices'];
 
 //momento de conectarnos a db
@@ -27,11 +27,11 @@ $matches = implode(',', $array);
 
 $query = "SELECT * FROM `traffic_devices` WHERE `devices_serie` IN($matches)";
 $result = $conn->query($query);
-$traffics = $result->fetch_all(MYSQLI_ASSOC);
+//$traffics = $result->fetch_all(MYSQLI_ASSOC);
 
 //print_r($traffics);
 //die();
-*/
+
 ?>
 
 
